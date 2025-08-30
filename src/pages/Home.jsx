@@ -27,7 +27,7 @@ import box2 from "../assets/images/box-2.png";
 import box3 from "../assets/images/box-3.png";
 import box4 from "../assets/images/box-4.png";
 import box5 from "../assets/images/box-5.png";
-import home from "../assets/images/home.jpg";
+import home from "../assets/images/Home.jpg";
 import adani from "../assets/images/adani.png";
 import havells from "../assets/images/havells.png";
 import vikramsolor from "../assets/images/vikram-solor.png";
