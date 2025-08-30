@@ -1,7 +1,7 @@
 import { easeInOut } from "framer-motion";
 import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/Logo.png";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
