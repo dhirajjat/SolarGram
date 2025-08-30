@@ -1,11 +1,13 @@
 import React from 'react'
-
+import up from "../../assets/images/Up.png";
+import bulb from "../../assets/images/bulb.png";
+import footer from "../../assets/images/footer.jpg";
 function UtterPreadesh() {
   return (
     <>
     <div className="relative flex items-center lg:mt-10 justify-center top-10">
     <img
-      src="/src/assets/images/footer.jpg"
+      src={footer}
       alt="Background"
       className="absolute inset-0 w-full h-52 lg:h-[350px] object-cover -z-10"
     />
@@ -22,7 +24,7 @@ function UtterPreadesh() {
   <div className='lg:flex  mx-5 lg:ml-52  lg:space-x-10 mt-12 lg:mt-12 lg:my-20'>
     <div className=''>
     <img
-      src="/src/assets/images/Up.png"
+      src={up}
       alt="Background"
       className=" lg:h-[550px] lg:w-[450px] rounded-3xl  lg:rounded-[180px] object-cover "
     />
@@ -44,7 +46,7 @@ function UtterPreadesh() {
     </div>
     <div className='lg:mt-20'>
     <img
-      src="/src/assets/images/bulb.png"
+      src={bulb}
       alt="Background"
       className=" lg:h-96 lg:ml-20  h-80 ml-10 "
     />

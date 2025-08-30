@@ -1,11 +1,14 @@
 import React from 'react'
+import home from "../../assets/images/home.jpg";
+import bulb from "../../assets/images/bulb.png";
+import footer from "../../assets/images/footer.jpg";
 
 function SolarUpgradeMantanace() {
   return (
     <>
     <div className="relative flex items-center lg:mt-10 justify-center top-10">
     <img
-      src="/src/assets/images/footer.jpg"
+      src={footer}
       alt="Background"
       className="absolute inset-0 w-full h-52 lg:h-[350px] object-cover -z-10"
     />
@@ -23,7 +26,7 @@ Solar Upgrade & Mantanace.{" "}
   <div className='flex  mx-48 space-x-10 my-20'>
     <div className=''>
     <img
-      src="/src/assets/images/Home.jpg"
+      src={home}
       alt="Background"
       className=" h-[530px] w-[1200px] rounded-[180px] "
     />
@@ -45,7 +48,7 @@ Solar Upgrade & Mantanace.{" "}
     </div>
     <div className='mt-20'>
     <img
-      src="/src/assets/images/bulb.png"
+      src={bulb}
       alt="Background"
       className=" h-96 ml-20  "
     />

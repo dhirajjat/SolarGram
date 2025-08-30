@@ -1,3 +1,4 @@
+
 import React from "react";
 import {
   FaFacebookF,
@@ -6,6 +7,8 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 
+
+import Heart from "../assets/images/heart.png";
 function ImageFooter() {
   const icons = [
     { icon: <FaFacebookF />, name: "Facebook" },
@@ -286,7 +289,7 @@ function ImageFooter() {
         </ul>
         <div className="text-white  text-right justify-end p-4 space-x-2 flex">
           <p className="text-white text-xl ">Proudly made by Dhiraj Jat </p>
-          <img src="/src/assets/images/heart.png" className="w-6 " alt="" />
+          <img src={Heart} className="w-6 " alt="" />
         </div>
       </div>
       <div className=" lg:flex bg-black lg:px-32 px-20 text-sm  text-white justify-between p-2">

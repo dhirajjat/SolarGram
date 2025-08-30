@@ -1,6 +1,7 @@
 import { easeInOut } from "framer-motion";
 import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
+import logo from "../assets/images/logo.png";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,7 +47,7 @@ const NavBar = () => {
     <nav className="bg-slate-50 lg:p-3 p-2 shadow-md fixed top-0 left-0 w-full z-40">
       <div className="container mx-auto flex justify-between items-center lg:px-10">
         <img
-          src="/logo.png"
+          src={logo}
           className="h-12 lg:h-16 lg:ml-36 rounded-lg object-contain"
           alt="Logo"
         />

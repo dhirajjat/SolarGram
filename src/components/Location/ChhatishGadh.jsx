@@ -1,11 +1,14 @@
 import React from 'react'
 
+import chhatisgadh from "../../assets/images/chhatisgadh.png";
+import bulb from "../../assets/images/bulb.png";
+import footer from "../../assets/images/footer.jpg";
 function ChhatishGadh() {
   return (
     <>
     <div className="relative flex items-center lg:mt-10 justify-center top-10">
     <img
-      src="/src/assets/images/footer.jpg"
+      src={footer}
       alt="Background"
       className="absolute inset-0 w-full h-52 lg:h-[350px] object-cover -z-10"
     />
@@ -22,7 +25,7 @@ function ChhatishGadh() {
   <div className='lg:flex  mx-5  lg:ml-52  lg:space-x-10  lg:my-20 mt-12'>
     <div className=''>
     <img
-      src="/src/assets/images/chhatisgadh.png"
+      src={chhatisgadh}
       alt="Background"
       className=" lg:h-[550px] lg:w-[450px] rounded-3xl  lg:rounded-[180px] object-cover "
     />
@@ -44,7 +47,7 @@ function ChhatishGadh() {
     </div>
     <div className='lg:mt-20'>
     <img
-      src="/src/assets/images/bulb.png"
+      src={bulb}
       alt="Background"
       className=" lg:h-96 w-80 lg:ml-20 ml-10  "
     />

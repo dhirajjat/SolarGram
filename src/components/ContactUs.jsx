@@ -1,4 +1,9 @@
 import React from "react";
+import footer from "../assets/images/footer.jpg";
+import email from "../assets/images/email.png";
+import phonecall from "../assets/images/phonecall.png";
+import map from "../assets/images/map.png";
+import solar from "../assets/images/solar.png";
 
 function ContactUs() {
   
@@ -6,7 +11,7 @@ function ContactUs() {
     <>
       <div className="relative flex items-center lg:mt-10 lg:justify-center top-10 mb-10">
         <img
-          src="/src/assets/images/footer.jpg"
+          src={footer}
           alt="Background"
           className="absolute inset-0 w-full h-52  lg:h-[350px] object-cover -z-10"
         />
@@ -27,14 +32,14 @@ function ContactUs() {
         <div className="lg:flex flex-col lg:flex-row space-y-10  lg:space-x-4  lg:mx-10 lg:ms-40  ">
           <div className="relative lg:mt-10 ms-5 lg:ms-0">
             <img
-              src="/src/assets/images/solar.png"
+              src={solar}
               alt="Background"
               className="absolute inset-0  lg:w-96 w-80  h-52 lg:h-[250px] rounded-3xl object-cover -z-10"
             />
 
             <div className=" bg-black px-4 py-5 text-white text-sm lg:w-96 w-80 rounded-3xl font-medium space-y-2 text-start h-52 lg:h-[250px] lg:px-10 lg:py-10   bg-opacity-70 relative z-10">
               <img
-                src="/src/assets/images/map.png"
+                src={map}
                 className="lg:w-12 w-10 p-1 bg-white object-cover rounded-full"
                 alt=""
               />
@@ -45,14 +50,14 @@ function ContactUs() {
           </div>
           <div className="relative flex lg:ms-0  items-center lg:mt-10 justify-center ">
             <img
-              src="/src/assets/images/solar.png"
+              src={solar}
               alt="Background"
               className="absolute inset-0  lg:w-96 ms-8 w-80 h-52 lg:ms-0 lg:h-[250px] rounded-3xl object-cover "
             />
 
             <div className=" bg-black px-4 py-5  text-white text-sm lg:w-96 w-80 rounded-3xl font-medium space-y-2 text-start h-52 lg:h-[250px] lg:px-10 lg:py-10   bg-opacity-70 relative">
               <img
-                src="/src/assets/images/phonecall.png"
+                src={phonecall}
                 className="w-12 my-3 p-2 bg-white object-cover rounded-full"
                 alt=""
               />
@@ -63,14 +68,14 @@ function ContactUs() {
           </div>
           <div className="relative flex items-center lg:mt-10 justify-center">
             <img
-              src="/src/assets/images/solar.png"
+              src={solar}
               alt="Background"
               className="absolute inset-0 lg:w-96 w-80 h-52 lg:h-[250px] ms-8 lg:ms-0 rounded-3xl object-cover -z-10"
             />
 
             <div className=" bg-black px-4 py-5  text-white text-sm lg:w-96 w-80  rounded-3xl font-medium space-y-2 text-start h-52 lg:h-[250px] lg:px-10 lg:py-10   bg-opacity-70 relative z-10">
               <img
-                src="/src/assets/images/email.png"
+                src={email}
                 className="w-12 my-3 p-2 bg-white object-cover rounded-full"
                 alt=""
               />

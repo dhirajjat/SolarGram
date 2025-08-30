@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from "react";
+import arrowUP from "../assets/images/arrowUP.png";
 
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -36,7 +37,7 @@ const ScrollToTopButton = () => {
       }`}
     >
       <img
-        src="src/assets/images/arrowUP.png"
+        src={arrowUP}
         className="w-12  bg-yellow-400 rounded-3xl cursor-pointer shadow-xl shadow-gray-500"
         alt="Scroll to Top"
         onClick={scrollToTop}

@@ -1,11 +1,14 @@
 import React from 'react'
+import mp from "../../assets/images/mp.png";
+import bulb from "../../assets/images/bulb.png";
+import footer from "../../assets/images/footer.jpg";
 
 function MadhyaPradesh() {
   return (
     <>
         <div className="relative flex items-center lg:mt-10 justify-center top-10">
         <img
-          src="/src/assets/images/footer.jpg"
+          src={footer}
           alt="Background"
           className="absolute inset-0 w-full h-52 lg:h-[350px] object-cover -z-10"
         />
@@ -22,7 +25,7 @@ function MadhyaPradesh() {
       <div className='lg:flex   lg:ml-52 mx-5  lg:space-x-10  lg:my-20 my-10 pt-5 lg:pt-0'>
         <div className=''>
         <img
-          src="/src/assets/images/mp.png"
+          src={mp}
           alt="Background"
           className=" lg:h-[550px] lg:w-[450px] rounded-3xl  lg:rounded-[180px] object-cover "
         />
@@ -44,7 +47,7 @@ function MadhyaPradesh() {
         </div>
         <div className='lg:mt-20 lg:my-0 my-5'>
         <img
-          src="/src/assets/images/bulb.png"
+          src={bulb}
           alt="Background"
           className=" lg:h-96 h-80 lg:ml-20  ml-10 "
         />

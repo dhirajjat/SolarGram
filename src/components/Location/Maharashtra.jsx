@@ -1,11 +1,14 @@
 import React from 'react'
+import mh from "../../assets/images/Maharashtra.png";
+import bulb from "../../assets/images/bulb.png";
+import footer from "../../assets/images/footer.jpg";
 
 function Maharashtra() {
   return (
     <>
     <div className="relative flex items-center lg:mt-10 justify-center top-10">
     <img
-      src="/src/assets/images/footer.jpg"
+      src={footer}
       alt="Background"
       className="absolute inset-0 w-full h-52 lg:h-[350px] object-cover -z-10"
     />
@@ -22,7 +25,7 @@ function Maharashtra() {
   <div className=' lg:flex mx-5  lg:mx-48 lg:space-x-10 mt-12  lg:my-20'>
     <div className=''>
     <img
-      src="/src/assets/images/Maharashtra.png"
+      src={mh}
       alt="Background"
   className=" lg:h-[530px] lg:w-[1000px]  lg:rounded-full rounded-3xl  "
     />
@@ -46,7 +49,7 @@ function Maharashtra() {
     </div>
     <div className='lg:mt-20 mt-5'>
     <img
-      src="/src/assets/images/bulb.png"
+      src={bulb}
       alt="Background"
       className=" h-96 lg:ml-20 ml-10  "
     />

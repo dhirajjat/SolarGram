@@ -1,11 +1,19 @@
 import React from "react";
+import footer from "../assets/images/footer.jpg";
+import aimage from "../assets/images/aimage.png";
+import box1 from "../assets/images/box-1.png";
+import box2 from "../assets/images/box-2.png";
+import box3 from "../assets/images/box-3.png";
+import box4 from "../assets/images/box-4.png";
+import box5 from "../assets/images/box-5.png";
+import Homeremovebgpreview from "../assets/images/Home-removebg-preview.png";
 
 function About() {
   return (
     <>
       <div className="relative flex items-center lg:mt-10 justify-center top-10">
         <img
-          src="/src/assets/images/footer.jpg"
+          src={footer}
           alt="Background"
           className="absolute inset-0 w-full h-52 lg:h-[350px] object-cover -z-10"
         />
@@ -24,7 +32,7 @@ function About() {
         <div className="  md:w-[50%] lg:m-20 ">
           <img
             className="w-full lg:w-full h-auto rounded-[100px] p-4 lg:p-0   lg:rounded-3xl"
-            src="src/assets/images/aimage.png"
+            src={aimage}
             alt="Solar Project"
           />
         </div>
@@ -76,7 +84,7 @@ function About() {
             <div className="flex p-2 lg:p-0">
               <img
                 className="w-7 h-7"
-                src="src/assets/images/box-1.png"
+                src={box1}
                 alt=""
               />
               <div className="text-sm text-gray-600 lg:ps-4  ps-2 text-start leading-loose ">
@@ -93,7 +101,7 @@ function About() {
             <div className="flex p-2 lg:p-0">
               <img
                 className="w-7 h-7"
-                src="src/assets/images/box-2.png"
+                src={box2}
                 alt=""
               />
               <div className="text-sm text-gray-600 lg:ps-4 ps-2 text-start leading-loose">
@@ -108,7 +116,7 @@ function About() {
             <div className="flex p-2 lg:p-0">
               <img
                 className="w-7 h-7"
-                src="src/assets/images/box-3.png"
+                src={box3}
                 alt=""
               />
               <div className="text-sm text-gray-600  lg:ps-4 ps-2 text-start leading-loose">
@@ -120,7 +128,7 @@ function About() {
             <div className="flex p-2 lg:p-0 ">
               <img
                 className="w-7 h-7"
-                src="src/assets/images/box-4.png"
+                src={box4}
                 alt=""
               />
               <div className="text-sm text-gray-600  lg:ps-4 ps-2 text-start leading-loose">
@@ -135,7 +143,7 @@ function About() {
             <div className="flex p-2 lg:p-0 ">
               <img
                 className="w-7 h-7"
-                src="src/assets/images/box-5.png"
+                src={box5}
                 alt=""
               />
               <div className="text-sm text-gray-600 lg:ps-4 ps-2 leading-loose text-start">
@@ -154,7 +162,7 @@ function About() {
         <div className="w-full  md:w-[40%] lg:space-y-6 lg:py-10">
           <img
             className="w-full md:w-[70%] lg:w-[78%] h-auto rounded-3xl"
-            src="src/assets/images/Home-removebg-preview.png"
+            src={Homeremovebgpreview}
             alt="Solar Project"
           />
         </div>

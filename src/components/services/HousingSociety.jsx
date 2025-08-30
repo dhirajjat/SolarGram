@@ -1,11 +1,13 @@
 import React from 'react'
-
+import housing from "../../assets/images/housing.png";
+import bulb from "../../assets/images/bulb.png";
+import footer from "../../assets/images/footer.jpg";
 function HousingSociety() {
   return (
     <>
     <div className="relative flex items-center lg:mt-10 justify-center top-10">
     <img
-      src="/src/assets/images/footer.jpg"
+      src={footer}
       alt="Background"
       className="absolute inset-0 w-full h-52 lg:h-[350px] object-cover -z-10"
     />
@@ -23,7 +25,7 @@ function HousingSociety() {
   <div className='lg:flex mx-5 lg:mx-60 lg:space-x-10 lg:my-20 mt-12 lg:mt-12'>
     <div className=''>
     <img
-      src="/src/assets/images/housing.png"
+      src={housing}
       alt="Background"
     className=" w-[400px] h-[550px]  lg:rounded-[180px] rounded-3xl "
     />
@@ -48,7 +50,7 @@ Housing Society.</h1>
     </div>
     <div className='lg:mt-20 mt-5' >
     <img
-      src="/src/assets/images/bulb.png"
+      src={bulb}
       alt="Background"
       className=" lg:h- h-80 lg:ml-20  ml-10 "
     />

@@ -23,6 +23,7 @@ import Talngana from "./components/Location/Talngana";
 import ChhatishGadh from "./components/Location/ChhatishGadh";
 import PopupForm from "./components/PopupForm";
 import ProjectSection from "./components/CardZoom";
+import whatsapp from "./assets/images/whatsapp.png";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -50,38 +51,30 @@ function App() {
         <NavBar />
         <PopupForm/>
       <img
-        src="src/assets/images/whatsapp.png"
+        src={whatsapp}
         className="z-50 fixed w-14 bottom-5 left-3"
         alt="WhatsApp"
       />
-       <Suspense fallback={<div>Loading Page...</div>}>
-        <Routes>
-          <Route path="/" element={<Home/>} />
-           <Route path="/about" element={<About />} />
-        </Routes>
-      </Suspense>
-      <Routes>
-     
-        
-       
-        <Route path="/blogs" element={<Blogs />} />
-        <Route path="/contact" element={<ContactUs />} />
-        <Route path="/enquiry" element={<Enquiry />} />
-        <Route path="/onGrid" element={<OnGrid />} />
-        <Route path="/offGrid" element={<OffGrid />} />
-        <Route path="/SolarUpgradeMantanace" element={<SolarUpgradeMantanace />} />
-        <Route path="/HousingSociety" element={<HousingSociety />} />
-        <Route path="/GovernmentProject" element={<GovernmentProject />} />
-        <Route path="/chhattisgarhh" element ={<ChhatishGadh/>} />
-        <Route path="/Maharastra" element={<Maharashtra/>} />
-        <Route path="/MadhyaPradesh" element={<MadhyaPradesh/>} />
-        <Route path="/chhattisgarhh" element ={<ChhatishGadh/>} />
-        <Route path="/Talngana" element ={<Talngana/>} />
-        <Route path="/UtterPreadesh" element={<UtterPreadesh/>} />
-      
-      
-        
-      </Routes>
+      <Suspense fallback={<div>Loading Page...</div>}>
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/about" element={<About />} />
+    <Route path="/blogs" element={<Blogs />} />
+    <Route path="/contact" element={<ContactUs />} />
+    <Route path="/enquiry" element={<Enquiry />} />
+    <Route path="/onGrid" element={<OnGrid />} />
+    <Route path="/offGrid" element={<OffGrid />} />
+    <Route path="/SolarUpgradeMantanace" element={<SolarUpgradeMantanace />} />
+    <Route path="/HousingSociety" element={<HousingSociety />} />
+    <Route path="/GovernmentProject" element={<GovernmentProject />} />
+    <Route path="/chhattisgarhh" element={<ChhatishGadh />} />
+    <Route path="/Maharastra" element={<Maharashtra />} />
+    <Route path="/MadhyaPradesh" element={<MadhyaPradesh />} />
+    <Route path="/Talngana" element={<Talngana />} />
+    <Route path="/UtterPreadesh" element={<UtterPreadesh />} />
+  </Routes>
+</Suspense>
+
 
       <ScrollToTopButton />
       {/* <ProjectSection/> */}

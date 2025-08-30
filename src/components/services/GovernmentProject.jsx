@@ -1,11 +1,13 @@
 import React from 'react'
-
+import Ghar from "../../assets/images/Ghar.png";
+import bulb from "../../assets/images/bulb.png";
+import footer from "../../assets/images/footer.jpg";
 function GovernmentProject() {
   return (
     <>
     <div className="relative flex items-center lg:mt-10 justify-center top-10">
     <img
-      src="/src/assets/images/footer.jpg"
+      src={footer}
       alt="Background"
       className="absolute inset-0 w-full h-52 lg:h-[350px] object-cover -z-10"
     />
@@ -22,7 +24,7 @@ function GovernmentProject() {
   <div className='lg:flex  mx-5  lg:mx-48 lg:space-x-10 lg:my-20 mt-12 lg:mt-20'>
     <div className=' '>
     <img
-      src="/src/assets/images/Ghar.png"
+      src={Ghar}
       alt="Background"
       className=" h-[400px] w-[800px]  lg:rounded-full rounded-3xl "
     />
@@ -46,7 +48,7 @@ function GovernmentProject() {
     </div>
     <div className='lg:mt-20'>
     <img
-      src="/src/assets/images/bulb.png"
+      src={bulb}
       alt="Background"
       className=" h-96 lg:ml-20  ml-10 "
     />

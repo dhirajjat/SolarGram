@@ -18,17 +18,37 @@ import image4 from "../assets/images/s-img-1.png";
 import image5 from "../assets/images/solarImg4.jpg";
 import image6 from "../assets/images/Bulb.jpg";
 import ImageSlider from "../components/Slider";
-
+import photob from "../assets/images/photob.png";
+import solarBanner4 from "../assets/images/solarBanner4.png";
+import solarImg4 from "../assets/images/solarImg4.jpg";
+import simg2 from "../assets/images/s-img-2.png";
+import box1 from "../assets/images/box-1.png";
+import box2 from "../assets/images/box-2.png";
+import box3 from "../assets/images/box-3.png";
+import box4 from "../assets/images/box-4.png";
+import box5 from "../assets/images/box-5.png";
+import home from "../assets/images/home.jpg";
+import adani from "../assets/images/adani.png";
+import havells from "../assets/images/havells.png";
+import vikramsolor from "../assets/images/vikram-solor.png";
+import home2 from "../assets/images/home-2.png";
+import polycab from "../assets/images/polycab.png";
+import tata from "../assets/images/tata.png"
+import utl from "../assets/images/utl.png";
+import growatt from "../assets/images/growatt.png"
+import waree from "../assets/images/waree.png"
+ 
 const image = [
-  "src/assets/images/adani.png",
-  "src/assets/images/growatt.png",
-  "src/assets/images/havells.png",
-  "src/assets/images/polycab.png",
-  "src/assets/images/tata.png",
-  "src/assets/images/utl.png",
-  "src/assets/images/vikram-solor.png",
-  "src/assets/images/waree.png",
-  "src/assets/images/tata.png",
+  adani,
+  growatt,
+  havells,
+  polycab,
+
+ tata,
+  utl,
+  vikramsolor,
+waree,
+ tata,
 ];
 
 const SlideImage = [
@@ -94,9 +114,9 @@ function Home() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ once: false, amount: 0.1 }}
           >
-            <img
+            <img 
               className="w-full lg:h-full h-28 mt-5 border-2"
-              src="src/assets/images/photob.png"
+              src={photob}
               alt="image"
             />
           </motion.div>
@@ -144,7 +164,7 @@ function Home() {
           >
             <img
               className="w-full h-auto rounded-2xl shadow-lg"
-              src="src/assets/images/s-img-2.png"
+              src={simg2}
               alt="Solar Energy"
             />
           </motion.div>
@@ -159,7 +179,7 @@ function Home() {
           >
             <img
               className="w-full h-auto rounded-2xl shadow-lg"
-              src="src/assets/images/s-img-2.png"
+              src={simg2}
               alt="Solar Energy"
             />
           </motion.div>
@@ -169,7 +189,7 @@ function Home() {
       <div>
         <img
           className="w-full mt-5 border-2"
-          src="src/assets/images/solarBanner4.png"
+          src={solarBanner4}
           alt="image"
         />
       </div>
@@ -183,7 +203,7 @@ function Home() {
           <div className="w-full md:w-1/2 flex justify-end ">
             <img
               className="w-full md:w-[70%] lg:w-[78%] h-auto rounded-3xl"
-              src="src/assets/images/solarImg4.jpg"
+              src={solarImg4}
               alt="Solar Project"
             />
           </div>
@@ -225,7 +245,7 @@ function Home() {
               <div className="flex ">
                 <img
                   className="w-7 h-7"
-                  src="src/assets/images/box-1.png"
+                  src={box1}
                   alt=""
                 />
                 <div className="text-sm text-gray-600 ps-4  text-start leading-loose ">
@@ -242,7 +262,7 @@ function Home() {
               <div className="flex ">
                 <img
                   className="w-7 h-7"
-                  src="src/assets/images/box-2.png"
+                  src={box2}
                   alt=""
                 />
                 <div className="text-sm text-gray-600 ps-4 text-start leading-loose">
@@ -257,7 +277,7 @@ function Home() {
               <div className="flex ">
                 <img
                   className="w-7 h-7"
-                  src="src/assets/images/box-3.png"
+                  src={box3}
                   alt=""
                 />
                 <div className="text-sm text-gray-600  ps-4 text-start leading-loose">
@@ -269,7 +289,7 @@ function Home() {
               <div className="flex ">
                 <img
                   className="w-7 h-7"
-                  src="src/assets/images/box-4.png"
+                  src={box4}
                   alt=""
                 />
                 <div className="text-sm text-gray-600  ps-4 text-start leading-loose">
@@ -284,7 +304,7 @@ function Home() {
               <div className="flex ">
                 <img
                   className="w-7 h-7"
-                  src="src/assets/images/box-5.png"
+                  src={box5}
                   alt=""
                 />
                 <div className="text-sm text-gray-600 ps-4 leading-loose text-start">
@@ -307,7 +327,7 @@ function Home() {
               {" "}
               <img
                 className="w-full  md:w-[70%] lg:w-[78%] h-auto rounded-3xl"
-                src="src/assets/images/Home.jpg"
+                src={home}
                 alt="Solar Project"
               />
             </div>
@@ -334,7 +354,7 @@ function Home() {
               <div className="border-2 rounded-full w-12 h-12 flex items-center justify-center">
                 <img
                   className="w-8 h-6"
-                  src="src/assets/images/adani.png"
+                  src={adani}
                   alt=""
                 />
               </div>
@@ -352,7 +372,7 @@ function Home() {
               <div className="border-2 rounded-full w-12 h-12 flex items-center justify-center">
                 <img
                   className="w-8 h-6"
-                  src="src/assets/images/adani.png"
+                  src={adani}
                   alt=""
                 />
               </div>
@@ -370,7 +390,7 @@ function Home() {
               <div className="border-2 rounded-full w-12 h-12 flex items-center justify-center">
                 <img
                   className="w-8 h-6"
-                  src="src/assets/images/havells.png"
+                  src={havells}
                   alt=""
                 />
               </div>
@@ -388,7 +408,7 @@ function Home() {
               <div className="border-2 rounded-full w-12 h-12 flex items-center justify-center">
                 <img
                   className="w-12 h-4"
-                  src="src/assets/images/vikram-solor.png"
+                  src={vikramsolor}
                   alt=""
                 />
               </div>
@@ -408,7 +428,7 @@ function Home() {
               <div className="border-2 rounded-full w-12 h-12 flex items-center justify-center">
                 <img
                   className="w-8 h-6"
-                  src="src/assets/images/havells.png"
+                  src={havells}
                   alt=""
                 />
               </div>
@@ -428,7 +448,7 @@ function Home() {
           <div className="sticky top-20">
             <img
               className="w-[500px] rounded-3xl lg:rounded-none"
-              src="src/assets/images/home-2.png"
+              src={home2}
               alt="Solar Services"
             />
           </div>

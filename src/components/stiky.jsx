@@ -1,4 +1,8 @@
 import React from 'react'
+import home2 from "../assets/images/home-2.png";
+import havells from "../assets/images/havells.png";
+import vikramsolor from "../assets/images/vikram-solor.png";
+import adani from "../assets/images/adani.png";
 
 function Stiky() {
     return(
@@ -21,7 +25,7 @@ function Stiky() {
               <div className="border-2 rounded-full w-12 h-12 flex items-center justify-center">
                 <img
                   className="w-8 h-6"
-                  src="src/assets/images/adani.png"
+                  src={adani}
                   alt=""
                 />
               </div>
@@ -39,7 +43,7 @@ function Stiky() {
               <div className="border-2 rounded-full w-12 h-12 flex items-center justify-center">
                 <img
                   className="w-8 h-6"
-                  src="src/assets/images/adani.png"
+                  src={adani}
                   alt=""
                 />
               </div>
@@ -57,7 +61,7 @@ function Stiky() {
               <div className="border-2 rounded-full w-12 h-12 flex items-center justify-center">
                 <img
                   className="w-8 h-6"
-                  src="src/assets/images/havells.png"
+                  src={havells}
                   alt=""
                 />
               </div>
@@ -75,7 +79,7 @@ function Stiky() {
               <div className="border-2 rounded-full w-12 h-12 flex items-center justify-center">
                 <img
                   className="w-12 h-4"
-                  src="src/assets/images/vikram-solor.png"
+                  src={vikramsolor}
                   alt=""
                 />
               </div>
@@ -95,7 +99,7 @@ function Stiky() {
               <div className="border-2 rounded-full w-12 h-12 flex items-center justify-center">
                 <img
                   className="w-8 h-6"
-                  src="src/assets/images/havells.png"
+                  src={havells}
                   alt=""
                 />
               </div>
@@ -115,7 +119,7 @@ function Stiky() {
           <div className="sticky top-20">
             <img
               className="w-[500px] rounded-3xl lg:rounded-none"
-              src="src/assets/images/home-2.png"
+              src={home2}
               alt="Solar Services"
             />
           </div>
